@@ -5,7 +5,7 @@ $caption-color: #6B6B6B;
 
 body {
 	padding-bottom: 10em;
-	font-family: monospace;
+	font-family: serif;
 }
 
 a {
@@ -48,6 +48,11 @@ a {
 	margin-bottom: 1em;
 }	
 #links{
+
+	.credits{
+		margin-top: 5em;
+	}
+
 	margin-top: 3em;
 	@media screen and ( max-width: 769px ){
 		margin-top: 0;
@@ -59,6 +64,8 @@ a {
 
 }
 #menu-list {
+
+
 	
 	& > div{ 
 		@media screen and ( max-width: 769px ){
