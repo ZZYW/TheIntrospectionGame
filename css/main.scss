@@ -63,10 +63,7 @@ a {
 	}
 
 }
-#menu-list {
-
-
-	
+#menu-list {	
 	& > div{ 
 		@media screen and ( max-width: 769px ){
 			display: inline-block;
@@ -86,4 +83,7 @@ a {
 		font-size: $caption-size;
 		color: $caption-color;
 	}
+}
+#aboutartists{
+    margin-top: 40px;
 }
