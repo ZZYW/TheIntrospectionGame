@@ -5,19 +5,23 @@ $caption-color: #6B6B6B;
 
 body {
 	padding-bottom: 10em;
-	font-family: serif;
+	font-family: sans-serif;
 }
 
 a {
-	color:#0033CC;
+	color: #000;
 	background: transparent;
-	// text-decoration: underline;
+	text-decoration: underline;
 
 	&:hover{
 		color: #fff;
 		background: #000;
 		text-decoration: none;
 	}
+}
+.img-responsive{
+	min-width: 100%;
+	height: auto;
 }
 .withzz::before {
 	content: "* "
@@ -46,6 +50,12 @@ a {
 
 #site-logo {
 	margin-bottom: 1em;
+	a {
+		background: #000;
+		color: #fff;
+		text-decoration: none;
+
+	}
 }	
 #links{
 
