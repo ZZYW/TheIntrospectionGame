@@ -3,12 +3,16 @@ layout: default
 ---
 <p>From a technical perspective, finding body sensors that are wearible, stable, and aligned with the conceptual idea of the project is key. We started testing a variety of body sensors that could potentially be a good fit. </p>
 
-
+<h3>Unity & Uniduino</h3>
+<img src="{{ "/img/process/sensors.jpg" | prepend: site.baseurl }}" class="img-responsive width-50"/>
+<p>For this project, we wanted to experiment with combining biofeedback with a losely constructed narrative of an inward journey. We quickly decided that Unity's strong graphics library will be a good fit for telling interactive narrative. In order to use Biofeedback to </p>
 
 <h3>Breath Sensor:</h3>
 <p>For this project, we find breath sensor to be a good fit. Breath is closely related to the inner emotional state of humanbeing. When people feel nervous, they tend to breath shallowly from their chests. When they make an active effort to calm down and disengage from negative emotions, they enter abdominal breathing - long, smooth, steady inhale and exhale intiated by the lower abdomen. To capture deep breath, we designed a wasteband made of a piece of conductive rubber and connected it to a closed circuit on Arduino. When the partcipant starts to breath deeply, the conductive rubber's resistence level changes respectively.</p>
-<img src="{{ "/img/process/wasteband_prototype.jpg" | prepend: site.baseurl }}" class="img-responsive width-50"/>
-<img src="{{ "/img/process/wasteband_2.jpg" | prepend: site.baseurl }}" class="img-responsive width-50"/>
+<div class="row">
+    <img src="{{ "/img/process/wasteband_prototype.jpg" | prepend: site.baseurl }}" class="img-responsive width-50"/>
+    <img src="{{ "/img/process/wasteband_2.jpg" | prepend: site.baseurl }}" class="img-responsive width-50"/>
+</div>
 
 
 <h3>Pause Sensor:</h3>
@@ -21,6 +25,3 @@ layout: default
 <h3>EEG Sensor</h3>
 <p>We eliminated EEG sensor in this particular project after a few rounds of testing. The main concern is that the Neurosky<a href="http://neurosky.com/"></a> sensor's wireless connection to laptop is unstable. In a previous project when we used Neurosky, the connection has to be recalibrated frequently. From an interaction design stand point, we want participant to actively responde to the narrative. EEG, as a relatively passive sensor which reflects user's mindwave frequencies, is also not a good fit for this particular project. 
 
-<h3>Unity & Uniduino</h3>
-<img src="{{ "/img/process/sensors.jpg" | prepend: site.baseurl }}" class="img-responsive width-50"/>
-<p></p>
