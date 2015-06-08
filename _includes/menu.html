@@ -1,28 +1,17 @@
-<div id="menu-list">
+
+<a class="no-underline" href="/"><p>THE INTROSPECTION GAME</p></a>  
 
 
-
-{% for post in site.posts %}
-        <div class="menu-item">
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-         
-        </div>
-{% endfor %}
-</div>
+<p>
+	<a href="/#narrative">narrative</a>, 
+	<a href="/#interaction">interaction</a>,
 
 
-<div id="links" class="caption-text">
-	<div class="creators">
-	    <div class="caption-text">Creators</div>
-	    <div id="wangyang"><a href="http://yangwang.info">Yang Wang</a></div>
-	    <div id="zhenzhenqi"><a href="http://zhenzhenqi.info">Zhenzhen Qi</a></div>
-	</div>
+	{% for post in site.posts %}
+	<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>,
+	{% endfor %}
 
-	<br>
+	<a href="mailto:zzywstudio@gmail.com">contact</a>
 
-<!-- 	<div class="credits">
-	    <div>Created at<br>The Laboratory Residency, <br>
-	    <a href="http://residency.laboratoryspokane.com/">More about the residency program.</a></div>
-    </div> -->
 
-</div>
+</p>

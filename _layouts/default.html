@@ -7,24 +7,19 @@
     <div class="container-fluid">
       <div class="row">
 
-      <div class="col-xs-12 col-sm-2 text-left" id="project-menu">
-        <div id="site-logo">
-          <a href="http://theintrospectiongame.com">
-            {{ site.title }}
-          </a>
-        </div>
+
+
+        <div class="text-center">
         {% include menu.html %}
-      </div>
 
-      <div class="col-xs-12 col-sm-9 col-md-7 col-lg-6">
-        <!-- <div class="lead">{{ page.title }}</div> -->
-      {{ content }}
-      </div>
+          {{ content }}
+        </div>
 
-      {% include footer.html %}
+        {% include footer.html %}
+        {% include googleTracking.html %}
       </div>
     </div>
-    {% include googleTracking.html %}
+
   </body>
 
 </html>

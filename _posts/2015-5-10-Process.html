@@ -2,6 +2,7 @@
 layout: default
 title: process
 ---
+<section class="col-xs-12 col-sm-6 col-sm-offset-3">
 <p>From a technical perspective, finding body sensors that are wearible, stable, and aligned with the conceptual idea of the project is key. We started testing a variety of body sensors that could potentially be a good fit. </p>
 
 <h3>Unity & Uniduino</h3>
@@ -12,12 +13,14 @@ title: process
 <h3>Breath Sensor:</h3>
 <p>For this project, we find breath sensor to be a good fit. Breath is closely related to the inner emotional state of humanbeing. When people feel nervous, they tend to breath shallowly from their chests. When they make an active effort to calm down and disengage from negative emotions, they enter abdominal breathing - long, smooth, steady inhale and exhale intiated by the lower abdomen. To capture deep breath, we designed a wasteband made of a piece of conductive rubber and connected it to a closed circuit on Arduino. When the partcipant starts to breath deeply, the conductive rubber's resistence level changes respectively.</p>
 <img src="{{ "/img/process/wasteband_prototype.jpg" | prepend: site.baseurl }}" class="img-responsive width-50"/>
+<br>
 <img src="{{ "/img/process/wasteband_2.jpg" | prepend: site.baseurl }}" class="img-responsive width-50"/>
 
 
 
 <h3>Pause Sensor:</h3>
 <img src="{{"/img/process/pausesensor.jpg" | prepend: site.baseurl }}" class="img-responsive width-50"/>
+<br>
 <p>In this critial play gaming experience, we decided to use pause sensor in combination with the breath sensor for a few reasons. Comparing to breath sensor, pause sensor is more stable and objective. It's symbolization of human heart and life also adds rich narritive value in the experience design. In the last sciene, we synchronized participant's heart beat with a red beacon residing on the mountain top in the middle of the abstract ocean to symbolize the end of an journey of introspection and self discovery.</p>
 
 <h3>GSR Sensor</h3>
@@ -26,3 +29,4 @@ title: process
 <h3>EEG Sensor</h3>
 <p>We eliminated EEG sensor in this particular project after a few rounds of testing. The main concern is that the Neurosky<a href="http://neurosky.com/"></a> sensor's wireless connection to laptop is unstable. In a previous project when we used Neurosky, the connection has to be recalibrated frequently. From an interaction design stand point, we want participant to actively responde to the narrative. EEG, as a relatively passive sensor which reflects user's mindwave frequencies, is also not a good fit for this particular project. 
 
+</p>
