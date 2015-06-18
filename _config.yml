@@ -1,6 +1,6 @@
 # Site settings
 title: THE INTROPSECTION GAME
-baseurl: "/theintrospectiongame.com" # the subpath of your site, e.g. /blog/
+baseurl: "/theintrospectiongame" # the subpath of your site, e.g. /blog/
 # baseurl: ""
 url: "/" # the base hostname & protocol for your site
 
