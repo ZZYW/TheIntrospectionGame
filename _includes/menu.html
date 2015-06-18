@@ -3,15 +3,15 @@
 
 
 <p>
-	<a href="http://theintrospectiongame.com/#narrative">narrative</a>, 
-	<a href="http://theintrospectiongame.com/#interaction">interaction</a>,
+	<a href="#narrative">narrative</a>, 
+	<a href="#interaction">interaction</a>,
 
 
 	{% for post in site.posts %}
 	<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>,
 	{% endfor %}
 
-	<a href="mailto:zzywstudio@gmail.com">contact</a>
+	<a href="mailto:zzywstudio@gmail.com" target="_blank">contact</a>
 
 
 </p>
